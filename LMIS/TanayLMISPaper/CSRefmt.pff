@@ -1,0 +1,16 @@
+﻿[Run Information]
+Version=CSPro 7.1
+AppType=Reformat
+
+[Files]
+InputData=.\LMISPaper.csdb.log
+OutputData=.\LMISPaper.csdb.lst
+InputDict=.\LMISPaper.dcf
+OutputDict=.\LMISPaper.dcf
+Listing=.\CSRefmt.lst
+
+[Parameters]
+ViewListing=Always
+ViewResults=No
+DisplayNames=Yes
+

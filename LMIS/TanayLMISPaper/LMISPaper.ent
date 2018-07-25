@@ -1,0 +1,15 @@
+﻿[CSPro Application]
+Version=CSPro 7.1
+Label=LMISPAPER
+Name=LMISPAPER
+AppType=DataEntry
+[AppCode]
+File=.\LMISPaper.ent.apc
+[Message]
+File=.\LMISPaper.ent.mgf
+[Help]
+File=.\LMISPaper.ent.qsf
+[Forms]
+File=.\LMISPaper.fmf
+[Dictionary Types]
+Dict-Type=.\LMISPaper.dcf,Input,.\LMISPaper.fmf

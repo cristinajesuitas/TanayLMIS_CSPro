@@ -1,0 +1,77 @@
+﻿[FormFile]
+Version=CSPro 7.1
+Name=LMISPAPER_FF
+Label=LMISPaperForm
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=OperatorControlled
+  
+[Dictionaries]
+File=.\LMISPaper.dcf
+  
+[Form]
+Name=FORM000
+Label=LMISPaper questionnaire
+Level=1
+Size=0,0
+  
+  
+[EndForm]
+  
+[Form]
+Name=FORM001
+Label=WRA
+Level=2
+Size=0,0
+  
+  
+[EndForm]
+  
+[Form]
+Name=FORM002
+Label=Housing
+Level=3
+Size=0,0
+  
+  
+[EndForm]
+  
+[Level]
+Name=LMISPAPER_QUEST
+Label=LMISPaper questionnaire
+  
+[Group]
+Required=Yes
+Name=LMISPAPER_QUEST_FORM
+Label=LMISPaper questionnaire
+Form=1
+LogicControl=No
+Max=1
+[EndGroup]
+  
+[Level]
+Name=WRA
+Label=WRA
+  
+[Group]
+Required=Yes
+Name=WRA_FORM
+Label=WRA
+Form=2
+LogicControl=No
+Max=1
+[EndGroup]
+  
+[Level]
+Name=HOUSING
+Label=Housing
+  
+[Group]
+Required=Yes
+Name=HOUSING_FORM
+Label=Housing
+Form=3
+LogicControl=No
+Max=1
+[EndGroup]
+  

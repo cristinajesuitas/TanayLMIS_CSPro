@@ -1,0 +1,13 @@
+﻿[CSPro Application]
+Version=CSPro 7.1
+Label=TANAYLMIS
+Name=
+AppType=DataEntry
+[AppCode]
+File=.\TanayLMIS.ent.apc
+[Message]
+File=.\TanayLMIS.ent.mgf
+[Help]
+File=.\TanayLMIS.ent.qsf
+[Forms]
+File=.\TanayLMIS.fmf

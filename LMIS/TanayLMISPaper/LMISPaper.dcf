@@ -1,0 +1,1068 @@
+﻿[Dictionary]
+Version=CSPro 7.1
+Label=LMISPaper
+Name=LMISPAPER_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Level]
+Label=LMISPaper questionnaire
+Name=LMISPAPER_QUEST
+
+[IdItems]
+
+[Item]
+Label=Region
+Name=REGION
+Start=2
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Region
+Name=REGION_VS1
+Value=4;Region IV-A (CALABARZON)
+
+[Item]
+Label=Province
+Name=PROV
+Start=4
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Province
+Name=PROV_VS1
+Link=20597640
+Value=58;Rizal
+
+[Item]
+Label=Municipal
+Name=MUN
+Start=6
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Municipal
+Name=MUN_VS1
+Link=20597728
+Value=12;Tanay
+
+[Item]
+Label=Barangay
+Name=BGY
+Start=8
+Len=3
+ZeroFill=Yes
+
+[ValueSet]
+Label=Barangay
+Name=BGY_VS1
+Value=1;Cayabu
+Value=2;Cuyambay
+Value=3;Daraitan
+Value=4;Katipunan Bayani (Pob)
+Value=5;Kaybuto
+Value=6;Laiban
+Value=7;Mag-Ampon
+Value=8;Mamuyao
+Value=9;Pinagkamaligan
+Value=11;Plaza Aldea
+Value=12;Sampaloc
+Value=13;San Andres
+Value=14;San Isidro
+Value=15;Sta Inez
+Value=16;Sto Nino
+Value=17;Tabing-Ilog
+Value=18;Tandang Kutyo
+Value=19;Tinucan
+Value=20;Wawa
+
+[Item]
+Label=Enumeration Area
+Name=EA
+Start=11
+Len=7
+
+[Item]
+Label=Questionnaire No
+Name=QNO
+Start=18
+Len=5
+ZeroFill=Yes
+
+[Record]
+Label=Identification
+Name=IDENTIFICATION
+RecordTypeValue='1'
+RecordLen=392
+
+[Item]
+Label=House No
+Name=HOUSE_NO
+Start=28
+Len=5
+
+[Item]
+Label=Room No
+Name=ROOM_NO
+Start=33
+Len=4
+
+[Item]
+Label=Floor No
+Name=FLOOR_NO
+Start=37
+Len=3
+
+[Item]
+Label=Unit No
+Name=UNIT_NO
+Start=40
+Len=3
+DataType=Alpha
+
+[Item]
+Label=Lot No
+Name=LOT_NO
+Start=43
+Len=25
+DataType=Alpha
+
+[Item]
+Label=Block No
+Name=BLOCK_NO
+Start=68
+Len=25
+DataType=Alpha
+
+[Item]
+Label=Phase No
+Name=PHASE_NO
+Start=93
+Len=25
+DataType=Alpha
+
+[Item]
+Label=Street
+Name=STREET
+Start=118
+Len=25
+DataType=Alpha
+
+[Item]
+Label=Building Name
+Name=BLDG_NAME
+Start=143
+Len=25
+DataType=Alpha
+
+[Item]
+Label=Apartment Name
+Name=APT_NAME
+Start=168
+Len=25
+DataType=Alpha
+
+[Item]
+Label=Subdivision
+Name=SUBDIVISION
+Start=193
+Len=25
+DataType=Alpha
+
+[Item]
+Label=Sitio
+Name=SITIO
+Start=218
+Len=25
+DataType=Alpha
+
+[Item]
+Label=Respondent Name
+Name=RESPONDENT_NAME
+Start=243
+Len=75
+DataType=Alpha
+
+[Item]
+Label=Respondent LastName
+Name=RES_LNAME
+Start=243
+Len=25
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Respondent MiddleName
+Name=RES_MNAME
+Start=243
+Len=25
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Respondent FirstName
+Name=RES_FNAME
+Start=243
+Len=25
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Household Head Name
+Name=HHEAD_NAME
+Start=318
+Len=75
+DataType=Alpha
+
+[Item]
+Label=Household Head Lastname
+Name=HHEAD_LNAME
+Start=318
+Len=25
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Household Head Middlename
+Name=HHEAD_MNAME
+Start=318
+Len=25
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Household Head Firstname
+Name=HHEAD_FNAME
+Start=318
+Len=25
+ItemType=SubItem
+DataType=Alpha
+
+[Record]
+Label=Interview Information
+Name=INTERVIEW_INFORMATION
+RecordTypeValue='2'
+RecordLen=57
+
+[Item]
+Label=Date of Visit
+Name=DATE_OF_VISIT
+Start=28
+Len=8
+ZeroFill=Yes
+
+[Item]
+Label=Day of Visit
+Name=DD_VISIT
+Start=28
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Month of Visit
+Name=MM_VISIT
+Start=28
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Year of Visit
+Name=YYYY_VISIT
+Start=28
+Len=4
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Time Start
+Name=TIME_START
+Start=36
+Len=4
+
+[Item]
+Label=Hour Start
+Name=HOUR_START
+Start=36
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Minute Start
+Name=MIN_START
+Start=36
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Time End
+Name=TIME_END
+Start=40
+Len=4
+
+[Item]
+Label=Hour End
+Name=HOUR_END
+Start=40
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Minute End
+Name=MIN_END
+Start=40
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Result
+Name=RESULT
+Start=44
+Len=2
+DataType=Alpha
+
+[Item]
+Label=Date of Next Visit
+Name=NEXT_VISIT
+Start=46
+Len=8
+
+[Item]
+Label=Day Next Visit
+Name=DD_NEXT_VISIT
+Start=46
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Month Next Visit
+Name=MM_NEXT_VISIT
+Start=46
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Year Next Visit
+Name=YYYY_NEXT_VISIT
+Start=46
+Len=4
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Interviewer
+Name=INTERVIEWER
+Start=54
+Len=2
+
+[Item]
+Label=Supervisor
+Name=SUPERVISOR
+Start=56
+Len=2
+
+[Record]
+Label=Household Section
+Name=HOUSEHOLD
+RecordTypeValue='3'
+Required=No
+MaxRecords=10
+RecordLen=275
+
+[Item]
+Label=Name
+Name=Q1
+Start=28
+Len=75
+DataType=Alpha
+
+[Item]
+Label=Firstname
+Name=FNAME
+Start=28
+Len=25
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=MiddleName
+Name=MNAME
+Start=28
+Len=25
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=LastName
+Name=LNAME
+Start=28
+Len=25
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Family No
+Name=Q2
+Start=103
+Len=1
+
+[Item]
+Label=Relationship
+Name=Q3
+Start=104
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Relationship
+Name=Q3_VS1
+Value=1;Head
+Value=2;Spouse
+Value=3;Son
+Value=4;Daughter
+Value=5;Stepson
+Value=6;Stepdaughter
+Value=7;Son-in-law
+Value=8;Daughter-in-law
+Value=9;Grandson
+Value=10;Grandddaughter
+Value=11;Father
+Value=12;Mother
+Value=13;Brother
+Value=14;Sister
+Value=15;Uncle
+Value=16;Aunt
+Value=17;Nephew
+Value=18;Niece
+Value=19;Other Relative
+Value=20;Non-relative
+Value=21;Boarder
+Value=22;Domestic Helper
+
+[Item]
+Label=Sex
+Name=Q4
+Start=106
+Len=1
+
+[ValueSet]
+Label=Sex
+Name=Q4_VS1
+Value=1;Male
+Value=2;Female
+
+[Item]
+Label=Age
+Name=Q5
+Start=107
+Len=2
+
+[ValueSet]
+Label=Age
+Name=Q5_VS1
+Value=0:98
+Value=99;Not Reported
+
+[ValueSet]
+Label=Age by 5 years
+Name=Q5_VS2
+Value=0:4;0 to 4
+Value=5:9;5 to 9
+Value=10:14;10 to 14
+Value=15:19;15 to 19
+Value=20:24;20 to 24
+Value=25:29;25 to 29
+Value=30:34;30 to 34
+Value=35:39;35 to 39
+Value=40:44;40 to 44
+Value=45:49;45 to 49
+Value=50:54;50 to 54
+Value=55:59;55 to 59
+Value=60:64;60 to 64
+Value=65:69;65 to 69
+Value=70:74;70 to 74
+Value=75:98;75 years and above
+
+[ValueSet]
+Label=Age by Category
+Name=Q5_VS3
+Value=0;Infant
+Value=1:12;Child
+Value=13:19;Teenager
+Value=20:59;Adult
+Value=60:98;Senior
+
+[Item]
+Label=Date of Birth
+Name=Q6
+Start=109
+Len=6
+ZeroFill=Yes
+
+[Item]
+Label=Month of Birth
+Name=MMBIRTH
+Start=109
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Year of Birth
+Name=YYYYBIRTH
+Start=109
+Len=4
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Place of Birth
+Name=Q7
+Start=115
+Len=4
+
+[Item]
+Label=Province of Birth
+Name=PROVPLACE
+Start=115
+Len=2
+ItemType=SubItem
+
+[ValueSet]
+Label=Province of Birth
+Name=PROVPLACE_VS1
+Link=20597640
+
+[Item]
+Label=Municipal of Birth
+Name=MUNPLACE
+Start=115
+Len=2
+ItemType=SubItem
+
+[ValueSet]
+Label=Municipal of Birth
+Name=MUNPLACE_VS1
+Value=12;Tanay
+
+[Item]
+Label=Nationality
+Name=Q8
+Start=119
+Len=3
+ZeroFill=Yes
+
+[ValueSet]
+Label=Nationality
+Name=Q8_VS1
+Value=1;Filipino
+
+[Item]
+Label=Marital Status
+Name=Q9
+Start=122
+Len=1
+
+[ValueSet]
+Label=Marital Status
+Name=Q9_VS1
+Value=1;Single
+Value=2;Married
+Value=3;Widowed
+Value=4;Separated
+Value=5;Living-In
+Value=6;Unknown
+
+[Item]
+Label=Religion
+Name=Q10
+Start=123
+Len=3
+
+[Item]
+Label=Ethnicity
+Name=Q11
+Start=126
+Len=3
+
+[Item]
+Label=Highest Level of Education Completed
+Name=Q12
+Start=129
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Highest Level of Education Completed
+Name=Q12_VS1
+Value=0;No Education
+Value=1;Pre-school
+Value=2;Elementary Level
+Value=3;Elementary graduate
+Value=4;High School Level
+Value=5;High School Graduate
+Value=6;Junior HS Level
+Value=7;Junior HS Graduate
+Value=8;Senior HS Level
+Value=9;Senior HS Graduate
+Value=10;Vocation/Tech
+Value=11;College Level
+Value=12;College Graduate
+Value=13;Post Graduate
+
+[Item]
+Label=Currently Enrolled
+Name=Q13
+Start=131
+Len=1
+
+[ValueSet]
+Label=Currently Enrolled
+Name=Q13_VS1
+Value=1;Yes, public
+Value=2;Yes, private
+Value=3;No
+
+[Item]
+Label=Place of School
+Name=Q14
+Start=132
+Len=4
+
+[Item]
+Label=Province of School
+Name=PROVSCHOOLPLACE
+Start=132
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[ValueSet]
+Label=Province of School
+Name=PROVSCHOOLPLACE_VS1
+Link=20597640
+
+[Item]
+Label=Municipal of School
+Name=MUNSCHOOLPLACE
+Start=132
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[ValueSet]
+Label=Municipal of School
+Name=MUNSCHOOLPLACE_VS1
+Link=20597728
+
+[Item]
+Label=Occupation
+Name=Q15
+Start=136
+Len=25
+DataType=Alpha
+
+[Item]
+Label=Place of Work
+Name=Q16
+Start=161
+Len=4
+
+[Item]
+Label=Province of Work
+Name=PROVWORKPLACE
+Start=161
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[ValueSet]
+Label=Province of Work
+Name=PROVWORKPLACE_VS1
+Link=20597640
+
+[Item]
+Label=Municipal of Work
+Name=MUNWORKPLACE
+Start=161
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[ValueSet]
+Label=Municipal of Work
+Name=MUNWORKPLACE_VS1
+Link=20597728
+
+[Item]
+Label=Occupation Status
+Name=Q17
+Start=165
+Len=1
+
+[ValueSet]
+Label=Occupation Status
+Name=Q17_VS1
+Value=1;Permanent
+Value=2;Casual
+Value=3;Contractual
+
+[Item]
+Label=Monthly Income
+Name=Q18
+Start=166
+Len=6
+
+[Item]
+Label=Place of Delivery
+Name=Q19
+Start=172
+Len=1
+
+[ValueSet]
+Label=Place of Delivery
+Name=Q19_VS1
+Value=1;Hospital
+Value=2;Private hospital
+Value=3;Lying-in clinic
+Value=4;Home
+
+[Item]
+Label=BirthAttendant
+Name=Q20
+Start=173
+Len=1
+
+[Item]
+Label=Immunization
+Name=IMMUNIZATION
+Start=174
+Len=1
+
+[Item]
+Label=LivingChildren
+Name=LIVINGCHILDREN
+Start=175
+Len=2
+
+[Item]
+Label=FP_Use
+Name=FP_USE
+Start=177
+Len=1
+
+[Item]
+Label=SourceOfFP
+Name=SOURCEOFFP
+Start=178
+Len=1
+
+[Item]
+Label=IntentToUseFP
+Name=INTENTTOUSEFP
+Start=179
+Len=1
+
+[Item]
+Label=HealthInsurance
+Name=HEALTHINSURANCE
+Start=180
+Len=1
+
+[Item]
+Label=FacilityVisited
+Name=FACILITYVISITED
+Start=181
+Len=1
+
+[Item]
+Label=FAcilityVisitedReason
+Name=FACILITYVISITEDREASON
+Start=182
+Len=1
+
+[Item]
+Label=Disability
+Name=DISABILITY
+Start=183
+Len=2
+
+[Item]
+Label=SoloParent
+Name=SOLOPARENT
+Start=185
+Len=1
+
+[Item]
+Label=SeniorCitizen
+Name=SENIORCITIZEN
+Start=186
+Len=1
+
+[Item]
+Label=VoterBgy
+Name=VOTERBGY
+Start=187
+Len=3
+
+[Item]
+Label=TypeOfResident
+Name=TYPEOFRESIDENT
+Start=190
+Len=1
+
+[Item]
+Label=PrevResidence5YAgo
+Name=PREVRESIDENCEAGO
+Start=191
+Len=9
+
+[Item]
+Label=Bgy5YAgo
+Name=BGY5YAGO
+Start=191
+Len=3
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Mun5YAgo
+Name=MUN5YAGO
+Start=191
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[ValueSet]
+Label=Mun5YAgo
+Name=MUN5YAGO_VS1
+Link=20597728
+
+[Item]
+Label=Prov5YAgo
+Name=PROV5YAGO
+Start=191
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Region5YAgo
+Name=REGION5YAGO
+Start=191
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=PrevResidence6MAgo
+Name=PREVRESIDENCE6MAGO
+Start=200
+Len=9
+
+[Item]
+Label=Bgy6MAgo
+Name=BGY6MAGO
+Start=200
+Len=3
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Mun6MAgo
+Name=MUN6MAGO
+Start=200
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Prov6MAgo
+Name=PROV6MAGO
+Start=200
+Len=2
+ItemType=SubItem
+
+[Item]
+Label=Region6MAgo
+Name=REGION6MAGO
+Start=200
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=DateOfStay
+Name=DATEOFSTAY
+Start=209
+Len=6
+
+[Item]
+Label=YYStay
+Name=YYSTAY
+Start=209
+Len=4
+ItemType=SubItem
+
+[Item]
+Label=MMStay
+Name=MMSTAY
+Start=209
+Len=2
+ItemType=SubItem
+
+[Item]
+Label=Lenght of Stay
+Name=LENGHT_OF_STAY
+Start=215
+Len=2
+
+[Item]
+Label=DateOfTransfer
+Name=DATEOFTRANSFER
+Start=217
+Len=6
+
+[Item]
+Label=YYYTransfer
+Name=YYYTRANSFER
+Start=217
+Len=4
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=MMTransfer
+Name=MMTRANSFER
+Start=217
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=ReasonTransfer
+Name=REASONTRANSFER
+Start=223
+Len=1
+
+[Item]
+Label=ReasonLeaving
+Name=REASONLEAVING
+Start=224
+Len=1
+
+[Item]
+Label=DateOfReturn
+Name=DATEOFRETURN
+Start=225
+Len=6
+
+[Item]
+Label=YYRetun
+Name=YYRETUN
+Start=225
+Len=4
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=MMReturn
+Name=MMRETURN
+Start=225
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=DurationofStay
+Name=DURATIONOFSTAY
+Start=231
+Len=6
+
+[Item]
+Label=YYDurationStay
+Name=YYDURATIONSTAY
+Start=231
+Len=6
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=MMDuration
+Name=MMDURATION
+Start=231
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=CTCNo
+Name=CTC_NO
+Start=237
+Len=8
+
+[Item]
+Label=CTCDate
+Name=CTCDATE
+Start=245
+Len=6
+
+[Item]
+Label=YY_CTC
+Name=YY_CTC
+Start=245
+Len=4
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=MM_CTC
+Name=MM_CTC
+Start=245
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=SkillDev
+Name=SKILLDEV
+Start=251
+Len=25
+DataType=Alpha
+
+[Record]
+Label=Housing Section
+Name=HOUSING
+RecordTypeValue='4'
+RecordLen=27
+
+[Level]
+Label=WRA
+Name=WRA
+
+[IdItems]
+
+[Item]
+Label=WRA No
+Name=WRANO
+Start=23
+Len=5
+
+[Record]
+Label=Children
+Name=CHILDREN
+RecordTypeValue='5'
+RecordLen=27

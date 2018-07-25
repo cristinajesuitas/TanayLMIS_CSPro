@@ -1,0 +1,127 @@
+﻿1
+Application     C:\Users\Cristina\Documents\LMIS\TanayLMISPaper\LMISPaper.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Documents\LMIS\TanayLMISPaper\LMISPaper.csdb
+
+Date            Jul 19, 2018
+Start Time      16:45:40
+End Time        16:46:25
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  99990            1   Operator entered a value out of range            
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Documents\LMIS\TanayLMISPaper\LMISPaper.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Documents\LMIS\TanayLMISPaper\LMISPaper.csdb
+
+Date            Jul 19, 2018
+Start Time      16:47:01
+End Time        16:47:05
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Documents\LMIS\TanayLMISPaper\LMISPaper.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Documents\LMIS\TanayLMISPaper\LMISPaper.csdb
+
+Date            Jul 19, 2018
+Start Time      16:47:05
+End Time        16:47:30
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Documents\LMIS\TanayLMISPaper\LMISPaper.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Documents\LMIS\TanayLMISPaper\LMISPaper.csdb
+
+Date            Jul 20, 2018
+Start Time      08:58:34
+End Time        08:58:40
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Documents\LMIS\TanayLMISPaper\LMISPaper.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Documents\LMIS\TanayLMISPaper\LMISPaper.csdb
+
+Date            Jul 24, 2018
+Start Time      11:34:15
+End Time        11:34:41
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Documents\LMIS\TanayLMISPaper\LMISPaper.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Documents\LMIS\TanayLMISPaper\LMISPaper.csdb
+
+Date            Jul 24, 2018
+Start Time      11:45:40
+End Time        11:45:41
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Documents\LMIS\TanayLMISPaper\LMISPaper.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Documents\LMIS\TanayLMISPaper\LMISPaper.csdb
+
+Date            Jul 24, 2018
+Start Time      16:35:14
+Application     C:\Users\Cristina\Documents\LMIS\TanayLMISPaper\LMISPaper.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Documents\LMIS\TanayLMISPaper\LMISPaper.csdb
+
+Date            Jul 25, 2018
+Start Time      08:13:40
+End Time        08:14:03
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  99990            2   Operator entered a value out of range            
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Documents\LMIS\TanayLMISPaper\LMISPaper.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Documents\LMIS\TanayLMISPaper\LMISPaper.csdb
+
+Date            Jul 25, 2018
+Start Time      08:14:29
+End Time        08:14:34
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Documents\LMIS\TanayLMISPaper\LMISPaper.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Documents\LMIS\TanayLMISPaper\LMISPaper.csdb
+
+Date            Jul 25, 2018
+Start Time      08:14:42
+End Time        08:14:52
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------

@@ -1,0 +1,68 @@
+﻿[Dictionary]
+Version=CSPro 7.1
+Label=GEOCODE Dictionary
+Name=GEOCODE_DICT
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+
+[Level]
+Label=GEOCODE Level
+Name=GEOCODE_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Region
+Name=GEO_REGION
+Start=1
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Province
+Name=GEO_PROVINCE
+Start=3
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Municipal
+Name=GEO_MUNICIPAL
+Start=5
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Barangay
+Name=GEO_BARANGAY
+Start=7
+Len=3
+ZeroFill=Yes
+
+[Item]
+Label=EA
+Name=GEO_EA
+Start=10
+Len=3
+ZeroFill=Yes
+
+[ValueSet]
+Label=EA
+Name=GEO_EA_VS1
+Value=4;Value 4
+
+[Record]
+Label=GEOCODE Record
+Name=GEOCODE_REC
+RecordTypeValue=''
+RecordLen=66
+
+[Item]
+Label=Area Name
+Name=GEO_AREA_NAME
+Start=13
+Len=54
+DataType=Alpha

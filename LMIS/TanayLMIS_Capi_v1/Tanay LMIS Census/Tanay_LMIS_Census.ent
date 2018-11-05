@@ -1,0 +1,33 @@
+﻿[CSPro Application]
+Version=CSPro 7.1
+Label=TANAY_LMIS_CENSUS
+Name=TANAY_LMIS_CENSUS
+AppType=DataEntry
+OperatorID=No
+ShowEndCaseDialog=No
+PartialSave=Yes
+CAPI=Yes
+CAPIFont1=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont2=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont1Color=0
+CAPIFont2Color=16711680
+CaseTree=Never
+CenterForms=Yes
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[External Dictionaries]
+File=..\Dictionary\1 - Geocode\GEOCODE.dcf
+[AppCode]
+File=.\Tanay_LMIS_Census.ent.apc
+[Message]
+File=.\Tanay_LMIS_Census.ent.mgf
+[Help]
+File=.\Tanay_LMIS_Census.ent.qsf
+[Forms]
+File=.\Tanay_LMIS_Census.fmf
+[Dictionary Types]
+Dict-Type=.\TanayLMIS_Capi.dcf,Input,.\Tanay_LMIS_Census.fmf
+Dict-Type=..\Dictionary\1 - Geocode\Geocode.dcf,External

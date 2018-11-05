@@ -1,0 +1,590 @@
+﻿[CAPI QUESTIONS]
+Version=CSPro 7.1
+
+[LANGUAGES]
+EN=English
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_AGE
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 How old is\b %HH_FIRSTNAME%\b0  as of \b %HH_SEX%\b0  birthday?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_BIRTH_ATTENDANT
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Who attended in the delivery of \b %HH_FIRSTNAME%\b0 ?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_CIVIL_STATUS
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Is \b %HH_FIRSTNAME%\b0  single, married, widowed or separated?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_COMMON_DISEASES_CAUSE_DEATH
+Occurrences=1:3
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What are the common diseases that causes death in this barangay?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_CURRENTLY_ENROLLED
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Is \b %HH_FIRSTNAME%\b0  currently enrolled?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_DISABILITY
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Does \b %HH_FIRSTNAME%\b0  have any disability?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_DISPOSAL_KITCHEN
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 How do your household usually dispose of your kitchen garbage such as leftover food, peeling of fruits and vegetables, fish and chicken entrails, and others?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_DRINKING_WATER
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What is the houshold's main source of drinking water?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_ETHNICITY
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Is \b %HH_FIRSTNAME%\b0  Tagalog, Bicolano, Muslim, etc?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_FAMILY_NUMBER
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Write 1 for the first nuclear family (parents and their unmarried children) then 2 for the second nuclear family (married child and his/her family) living within the household and so on.\cf2\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_FAMILY_PLANNING_METHOD_USED
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What family planning method \b %HH_FIRSTNAME%\b0  are you or your partner currently using?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_FIRSTNAME
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Who are the members of this household starting from the household head?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_FUEL_LIGHTING
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What type of fuel \b %HH_FIRSTNAME%\b0  does this houshole use for lighting?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_HEALTH_FACILITY_VISITED
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What health facility did \b %HH_FIRSTNAME%\b0  visited in the past 12 months?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_HEALTH_INSURANCE
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What health insurance does \b %HH_FIRSTNAME%\b0  have?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_HIGHEST_EDUCATION_COMPL
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What is the highest level of education completed by \b %HH_FIRSTNAME%\b0 ?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_IMMUNIZATION
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What is the last vaccine received by \b %HH_FIRSTNAME%%\b0 ?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_INTENT_TO_STAY_MUN
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Where does your household intend to stay five years from now?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_INTENT_TO_USE_FP
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Do you, \b %HH_FIRSTNAME%\b0 , or your partner intend to use FP Method?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_LIVING_CHILDREN
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\b\fs24 %HH_FIRSTNAME%\b0 , how many of these children are still living?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_MONTH_BORN
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 When was \b %HH_FIRSTNAME%\b0  born?\par
+EN= \par
+EN=\cf2 Enter month born then year born\cf1\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_MONTH_INTEND_STAY
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Until when \b %HH_FIRSTNAME%\b0  do you intend to stay in this barangay? month/year?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_MONTH_NUMBER_STAY
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 How long is \b %HH_FIRSTNAME%\b0  been staying in this barangay?  \par
+EN=\par
+EN=\cf2 Number of months/number of years\cf1\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_MONTH_RETURN_PREVIOUS
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 When \b %HH_FIRSTNAME%\b0  do you plan to return to your previous residence? month/year?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_MONTH_TRANSFERRED
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 When did \b %HH_FIRSTNAME%\b0  transfer in this barangay\par
+EN=\par
+EN=\cf2 MM/YYYY\cf1\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_MONTHLY_INCOME
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What is \b %HH_FIRSTNAME%\b0 's monthly incom?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_MORE_ROWS
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Are there additional persons in your household?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_MUNICIPAL_PRECINT
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 In what city/municipality/barangay is a \b %HH_FIRSTNAME%\b0  a registered voter?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_MUNICIPAL_RESIDENCE_5Y_AGO
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 In what city/municipality/barangay did \b %HH_FIRSTNAME%\b0  reside on \b %5_years_ago%\b0 ?\cf2\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_MUNICIPAL_RESIDENCE_6MO_AGO
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 In what city/municipality/barangay did \b %HH_FIRSTNAME%\b0  did reside on %6_monthhs_ago%?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_NATIONALITY
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Is \b %HH_FIRSTNAME% \b0 a Filipino?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_NUMBER_OF_CHILD
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Do you have a child below 5 years old who died in the past 12 months?  How old is the child?  Whtat is the caus of the child's death?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_NUMBER_OF_CHILDREN
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 How many children does \b %HH_FIRSTNAME%\b0  have?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_NUMBER_OF_FEMALE_DEATH
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Do you have any female members who died in the past 12 months?  How old is she and what is the cause of her death?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_OCCUPATION
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What is \b %HH_FIRSTNAME%\b0 's occupation in the past 12 months?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_OCCUPATION_STATUS
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Is \b %HH_FIRSTNAME%\b0  permanent or temporary in %HH_SEX% current work?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_OTHER_FUEL_FOR_LIGHTING
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What kind of fuel \b %HH_FIRSTNAME%\b0  does this houshold use most of the time for cooking?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_OTHER_NATIONALITY
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Type \b %HH_FIRSTNAME%\b0 's nationality  \par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_OUTER_WALL
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Construction materials of the outer wall\par
+EN=\par
+EN=\cf2 Do not ask, observation only\cf1\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_OWNERSHIP_HOUSE
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Do you, \b %HH_FIRSTNAME%,\b0  own or amortize this \ul housing unit\ulnone  occupied by your household or do you rent it, do you occupy it rent-free with consent of owner or rent-free without consent of owner?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_OWNERSHIP_LOT
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Do you, \b %HH_FIRSTNAME%, \b0 own or amortize this lot occupied by your household or do you rent it, do you occupy it rent-free with consent of owner or rent-free without the consent of owner?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_PF_METHOD_INTENT_TO_USE
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 If yes, what method \b %HH_FIRSTNAME%\b0  or your partner intend to use?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_PLACE_OF_BIRTH
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Where was \b %HH_FIRSTNAME%\b0  born?\par
+EN=\par
+EN=\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_PLACE_OF_BIRTH_DELIVERY
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Where was \b %HH_FIRSTNAME%\b0  delivered?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_PRACTICE_SEGREGATION
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Do you segrate your garbage?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_PRIMARY_NEEDS_BARANGAY
+Occurrences=1:3
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What do you think are the primary needs of this barangay\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_PROVINCE_BORN
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Province/city/municipality where \b %HH_FIRSTNAME%\b0  born. \par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_PROVINCE_ENROLLE
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 In what province/city/municipality is\b  %HH_FIRSTNAME%\b0  currently attending school?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_PROVINCE_OF_WORK
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 In what province/city/municipality did \b %HH_FIRSTNAME%\b0  work in the past 12 months?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_REASON_FOR_LEAVING
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What are the reason/s why \b %HH_FIRSTNAME%\b0  left %HH_SEX% previous residence?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_REASON_FOR_TRANSFERRING
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What are the reason/s why \b %HH_FIRSTNAME%\b0  trasferred in this barangay?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_REASON_FOR_VISIT
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What \b %HH_FIRSTNAME%\b0  is the reason for visiting health facility?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_REASON_OF_NO_INTENT_TO_USE_FP
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\b\fs24 %HH_FIRSTNAME%\b0 , if no, why not?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_REGISTERED_SENIOR_CITIZEN
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Is \b %HH_FIRSTNAME%\b0  a registered senior citizen?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_REGISTERED_VOTER
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Is \b %HH_FIRSTNAME%\b0  a registered voter?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_RELATIONSHIP
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What is \b %HH_FIRSTNAME%\b0 's relationship to the Household head?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_RELIGION
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What is the religion of \b %HH_FIRSTNAME%\b0 ?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_SEX
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Is \b %HH_FIRSTNAME%\b0  male or female?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_SKILLS_DEVELOPMENT_TRAINING
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What type of skills development training \b %HH_FIRSTNAME%\b0  are you interested to join in?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_SOLO_PARENT
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Is \b %HH_FIRSTNAME%\b0  a solo parent?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_SOURCE_OF_FP_METHOD
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\b\fs24 I\b0 f using, Family Planning, where \b %HH_FIRSTNAME%\b0  did you obtain this FP Method?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_TOILET_FACILITY
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What type of toilet facility does this household use?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_TYPE_HOUSE
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Type of building/house.\par
+EN=\cf2\par
+EN=Do not ask, observation only.\cf1\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_TYPE_OF_DISABILITY
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 What type of disability do you have \b %HH_FIRSTNAME%\b0 ?\par
+EN=}
+
+[QUESTION]
+Field=TANAYLMIS_CAPI_DICT.HH_TYPE_OF_RESIDENT
+Occurrences=1:30
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24 Do not ask\cf2\par
+EN=}
+

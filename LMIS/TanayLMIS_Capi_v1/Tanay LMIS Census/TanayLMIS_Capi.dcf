@@ -1,0 +1,1694 @@
+﻿[Dictionary]
+Version=CSPro 7.1
+Label=TanayLMIS_Capi
+Name=TANAYLMIS_CAPI_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Level]
+Label=TanayLMIS_Capi questionnaire
+Name=TANAYLMIS_CAPI_QUEST
+
+[IdItems]
+
+[Item]
+Label=Region
+Name=HH_REGION
+Start=2
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Region
+Name=HH_REGION_VS
+Value=1;REGION I (ILOCOS REGION)
+Value=2;REGION II (CAGAYAN VALLEY)
+Value=3;REGION III (CENTRAL LUZON)
+Value=4;REGION IV-A (CALABARZON)
+Value=5;REGION V (BICOL REGION)
+Value=6;REGION VI (WESTERN VISAYAS)
+Value=7;REGION VII (CENTRAL VISAYAS)
+Value=8;REGION VIII (EASTERN VISAYAS)
+Value=9;REGION IX (ZAMBOANGA PENINSULA)
+Value=10;REGION X (NORTHERN MINDANAO)
+Value=11;REGION XI (DAVAO REGION)
+Value=12;REGION XII (SOCCSKSARGEN)
+Value=13;NATIONAL CAPITAL REGION (NCR)
+Value=14;CORDILLERA ADMINISTRATIVE REGION (CAR)
+Value=15;AUTONOMOUS REGION IN MUSLIM MINDANAO (ARMM)
+Value=16;REGION XIII (Caraga)
+Value=17;MIMAROPA REGION
+
+[Item]
+Label=Province
+Name=HH_PROVINCE
+Start=4
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Municipal
+Name=HH_MUNICIPAL
+Start=6
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Barangay
+Name=HH_BARANGAY
+Start=8
+Len=3
+ZeroFill=Yes
+
+[Item]
+Label=Enumeration Area
+Name=HH_EA
+Start=11
+Len=3
+ZeroFill=Yes
+
+[Item]
+Label=Segment
+Name=HH_SEGMENT
+Start=14
+Len=3
+ZeroFill=Yes
+
+[Item]
+Label=Household Number
+Name=HH_NUMBER
+Start=17
+Len=5
+ZeroFill=Yes
+
+[Record]
+Label=Demographic Record
+Name=DEMOGRAPHIC_RECORD
+RecordTypeValue='D'
+MaxRecords=30
+RecordLen=472
+
+[Item]
+Label=Population Section:  Keep Row?
+Name=HH_KEEP_ROW
+Start=22
+Len=1
+
+[ValueSet]
+Label=Population Section:  Keep Row?
+Name=HH_KEEP_ROW_VS
+Value=1;Yes, keep population row
+Value=2;No, delete population row
+
+[Item]
+Label=Name
+Name=HH_NAME
+Start=23
+Len=75
+DataType=Alpha
+
+[Item]
+Label=Firstname
+Name=HH_FIRSTNAME
+Start=23
+Len=25
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Middlename
+Name=HH_MIDDLENAME
+Start=48
+Len=25
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Lastname
+Name=HH_LASTNAME
+Start=73
+Len=25
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Family Number
+Name=HH_FAMILY_NUMBER
+Start=98
+Len=1
+
+[ValueSet]
+Label=Family Number
+Name=HH_FAMILY_NUMBER_VS
+Value=1:9
+
+[Item]
+Label=Relationship to Household Head
+Name=HH_RELATIONSHIP
+Start=99
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Relationship
+Name=HH_RELATIONSHIP_VS
+Value=1;Head
+Value=2;Spouse
+Value=3;Son
+Value=4;Daughter
+Value=5;Stepson
+Value=6;Stepdaughter
+Value=7;Son-in-Law
+Value=8;Daughter-in-Law
+Value=9;Grandson
+Value=10;Granddaughter
+Value=11;Father
+Value=12;Mother
+Value=13;Brother
+Value=14;Sister
+Value=15;Uncle
+Value=16;Aunt
+Value=17;Nephew
+Value=18;Niece
+Value=19;Other relative
+Value=20;Non-relative
+Value=21;Boarder
+Value=22;Domestic Helper
+
+[ValueSet]
+Label=Relationship
+Name=HH_RELATIONSHIP_MALE
+Value=1;Head
+Value=2;Husband
+Value=3;Son
+Value=5;Stepson
+Value=7;Son-in-Law
+Value=9;Grandson
+Value=11;Father
+Value=13;Brother
+Value=15;Uncle
+Value=17;Nephew
+Value=19;Other relative
+Value=20;Non-relative
+Value=21;Boarder
+Value=22;Domestic Helper
+
+[ValueSet]
+Label=Relationship
+Name=HH_RELATIONSHIP_FEMALE
+Value=1;Head
+Value=2;Wife
+Value=4;Daughter
+Value=6;Stepdaughter
+Value=8;Daughter-in-Law
+Value=10;Granddaughter
+Value=12;Mother
+Value=14;Sister
+Value=16;Aunt
+Value=18;Niece
+Value=19;Other relative
+Value=20;Non-relative
+Value=21;Boarder
+Value=22;Domestic Helper
+
+[Item]
+Label=Sex
+Name=HH_SEX
+Start=101
+Len=1
+
+[ValueSet]
+Label=Sex
+Name=HH_SEX_VS1
+Link=117764920
+Value=1;Male
+Value=2;Female
+
+[Item]
+Label=Date of Birth
+Name=HH_DATE_OF_BIRTH
+Start=102
+Len=6
+DataType=Alpha
+
+[Item]
+Label=Month Born
+Name=HH_MONTH_BORN
+Start=102
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[ValueSet]
+Label=Month Born
+Name=HH_MONTH_BORN_VS1
+Link=111088560
+Value=1;January
+Value=2;February
+Value=3;March
+Value=4;April
+Value=5;May
+Value=6;June
+Value=7;July
+Value=8;August
+Value=9;September
+Value=10;October
+Value=11;November
+Value=12;December
+
+[Item]
+Label=Year Born
+Name=HH_YEAR_BORN
+Start=104
+Len=4
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Age
+Name=HH_AGE
+Start=108
+Len=3
+
+[ValueSet]
+Label=Age
+Name=HH_AGE_VS
+Value=1:120
+
+[Item]
+Label=Place of Birth
+Name=HH_PLACE_OF_BIRTH
+Start=111
+Len=1
+
+[ValueSet]
+Label=Place of Birth
+Name=HH_PLACE_OF_BIRTH_VS
+Value=1;Current Barangay
+Value=2;Others, please specify
+
+[Item]
+Label=Other Place of birth
+Name=HH_OTHER_PLACE_OF_BIRTH
+Start=112
+Len=10
+DataType=Alpha
+
+[Item]
+Label=Province Born
+Name=HH_PROVINCE_BORN
+Start=112
+Len=2
+ItemType=SubItem
+
+[Item]
+Label=Municipality Born
+Name=HH_MUNICIPALITY_BORN
+Start=116
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Nationality
+Name=HH_NATIONALITY
+Start=122
+Len=1
+
+[ValueSet]
+Label=Nationality
+Name=HH_NATIONALITY_VS
+Value=1;Filipino
+Value=2;Others, pls specify
+
+[Item]
+Label=Other Nationality
+Name=HH_OTHER_NATIONALITY
+Start=123
+Len=15
+DataType=Alpha
+
+[Item]
+Label=Civil Status
+Name=HH_CIVIL_STATUS
+Start=138
+Len=1
+
+[ValueSet]
+Label=Civil Status
+Name=HH_CIVIL_STATUS_VS
+Value=1;Single
+Value=2;Married
+Value=3;Widowed
+Value=4;Separated
+Value=5;Living-in
+Value=6;Unknown
+
+[Item]
+Label=Religion
+Name=HH_RELIGION
+Start=139
+Len=2
+
+[ValueSet]
+Label=Religion
+Name=HH_RELIGION_VS
+Value=0;None
+Value=1;Aglipay
+Value=2;Alliance of Bible Christian Communities of the Philippines
+Value=3;Assemblies of God
+Value=4;Association of Baptist Churches in Luzon, Visayas, and Mindanao
+Value=5;Association of Fundamental Baptist Churches in the Philippines
+Value=6;Baptist Conference of the Philippines
+Value=7;Bible Baptist Church
+Value=8;Bread of Life Ministries
+Value=9;Buddhist
+Value=10;Cathedral of Praise, Incorporated
+Value=11;Charismatic Full Gospel Ministries
+Value=12;Christ the Living Stone Fellowship
+Value=13;Christian and Missionary Alliance Church of the Philippines
+Value=14;Christian Missions in the Philippines
+Value=15;Church of Christ
+Value=16;Church of God World Mission in the Philippines
+Value=17;Church of Jesus Christ of the Latter Day Saints
+Value=18;Church of the Nazarene
+Value=19;Christian Reformed Church in the Philippines, Incorporated
+Value=20;Conservative of the Philippine Baptist Church
+Value=21;Convention of the Philippine Baptist Church
+Value=22;Crusaders of the Divine Church of Christ, Incorporated
+Value=23;Door of Faith
+Value=24;Evangelical Christian Outreach Foundation
+Value=25;Evangelical Free Church of the Philippines
+Value=26;Evangelical Presbyterian Church
+Value=27;Faith Tabernacle Church (Living Rock Ministries)
+Value=28;Filipino Assemblies of the First Born, Incorporated
+Value=29;Foursquare Gospel Church in the Philippines
+Value=30;Free Believers in Christ Fellowship
+Value=31;Free Methodist Church
+Value=32;Free Mission in the Philippines, Incorporated
+Value=33;General Baptist Churches of the Philippines
+Value=34;Good News Christian Churches
+Value=35;Higher Ground Baptist Mission
+Value=36;IEMELIF Reform Movement
+Value=37;Iglesia Evangelica Unida de Cristo
+Value=38;Iglesia Evangelista Methodista en Las Islas Filipinas (IEMELIF)
+Value=39;Iglesia Filipina Independiente
+Value=40;Iglesia ni Cristo
+Value=41;Iglesia sa Dios Espiritu Santo, Incorporated
+Value=42;Independent Baptist Churches of the Philippines
+Value=43;Independent Baptist Missionary Fellowship
+Value=44;International One Way Outreach
+Value=45;Islam
+Value=46;Jehovah's Witness
+Value=47;Jesus Christ Saves Global Outreach
+Value=48;Jesus is Alive Community, Incorporated
+Value=49;Jesus is Lord Church
+Value=50;Jesus Reigns Ministries
+Value=51;Love of Christ International Ministries
+Value=52;Lutheran Church of the Philippines
+Value=53;Miracle Life Fellowship International
+Value=54;Miracle Revival Church of the Philippines
+Value=55;Missionary Baptist Churches of the Philippines
+Value=56;Pentecostal Church of God Asia Mission
+Value=57;Philippine Benevolent Missionaries Association
+Value=58;Philippine Ecumenical Christian Church
+Value=59;Philippine Episcopal Churche
+Value=60;Philippine Evangelical Mission
+Value=61;Philippine General Council of the Assemblies of God
+Value=62;Philippine Good News Ministries
+Value=63;Philippine Grace Gospel
+Value=64;Philippine Independent Catholic Church
+Value=65;Philippine Missionary Fellowship
+Value=66;Philippine Pentecostal Holiness Church
+Value=67;Potter's House Christian Center
+Value=68;Presbyterian Church in the Philippines
+Value=69;Roman Catholic, including Catholic Charismatic
+Value=70;Salvation Army, Philippines
+Value=71;Seventh Day Adventist
+Value=72;Southern Baptist Church
+Value=73;Take the Nation for Jesus Global Ministries (Corpus Christi)
+Value=74;Things to Come
+Value=75;UNIDA Evangelical Church
+Value=76;United Church of Christ in the Philippines
+Value=77;United Evangelical Church of the Philippines (Chinese)
+Value=78;Union Espiritista Cristiana de Filipinas, Incorporated
+Value=79;United Methodists Church
+Value=80;United Pentecostal Church (Philippines), Incorporated
+Value=81;Universal Pentecostal Church
+Value=82;Victory Chapel Christian Fellowship
+Value=83;Watch Tower Bible and Tract Society of the Philippines, Incorporated (Jehovah's Witnesses)
+Value=84;Way of Salvation
+Value=85;Way of Salvation Church Incorporated, The
+Value=86;Wesleyan Church, The
+Value=87;Word for the World
+Value=88;Word International Ministries, Incorporated
+Value=89;World Missionary Evangelism
+Value=90;Worldwide Church of God
+Value=91;Zion Christian Community Church
+Value=92;Other Baptists
+Value=93;Other Evangelical Churches
+Value=94;Other Methodists
+Value=95;Other Protestants
+Value=96;Tribal religions
+Value=97;Other religious affiliations
+
+[Item]
+Label=Ethnicity
+Name=HH_ETHNICITY
+Start=141
+Len=25
+DataType=Alpha
+
+[Item]
+Label=Highest Level of Education Completed
+Name=HH_HIGHEST_EDUCATION_COMPL
+Start=166
+Len=2
+
+[ValueSet]
+Label=Highest Level of Education Completed
+Name=HH_HIGHEST_EDUCATION_COMPL_VS
+Value=0;No education
+Value=1;Pre-school
+Value=2;Elementary Level
+Value=3;Elementary Graduate
+Value=4;High school level
+Value=5;High school graduate
+Value=6;Junior Highschool
+Value=7;Junior Higschool graduate
+Value=8;Senior highschool level
+Value=9;Senior highschool graduate
+Value=10;Vocational/Tech
+Value=11;College level
+Value=12;College graduate
+Value=13;Post-graduate
+Value=99
+Name=NOTAPPL,Special
+
+[Item]
+Label=Currently Enrolled
+Name=HH_CURRENTLY_ENROLLED
+Start=168
+Len=2
+
+[ValueSet]
+Label=Currently Enrolled
+Name=HH_CURRENTLY_ENROLLED_VS
+Value=1;Yes, public
+Value=2;Yes, private
+Value=3;No
+Value=99
+Name=NOTAPPL,Special
+
+[Item]
+Label=Province Enrolled
+Name=HH_PROVINCE_ENROLLE
+Start=170
+Len=2
+
+[ValueSet]
+Label=Province Enrolled
+Name=HH_PROVINCE_ENROLLE_VS1
+Value=99
+Name=NOTAPPL,Special
+
+[Item]
+Label=Municipality Enrolled
+Name=HH_MUNICIPALITY_ENROLLED
+Start=172
+Len=2
+
+[ValueSet]
+Label=Municipality Enrolled
+Name=HH_MUNICIPALITY_ENROLLED_VS1
+Link=123182168
+Value=99
+Name=NOTAPPL,Special
+
+[Item]
+Label=Is working
+Name=HH_WORKING
+Start=174
+Len=1
+
+[ValueSet]
+Label=Is working
+Name=HH_WORKING_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Reason of Not Working
+Name=HH_REASON_OF_NOT_WORKING
+Start=175
+Len=10
+DataType=Alpha
+
+[Item]
+Label=Occupation
+Name=HH_OCCUPATION
+Start=185
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Province of Work
+Name=HH_PROVINCE_OF_WORK
+Start=215
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Province of Work
+Name=HH_PROVINCE_OF_WORK_VS1
+Value=99
+Name=NOTAPPL,Special
+
+[Item]
+Label=Municipal of Work
+Name=HH_MUNICIPAL_OF_WORK
+Start=217
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Municipal of Work
+Name=HH_MUNICIPAL_OF_WORK_VS1
+Value=99
+Name=NOTAPPL,Special
+
+[Item]
+Label=Occupation Status
+Name=HH_OCCUPATION_STATUS
+Start=219
+Len=1
+
+[ValueSet]
+Label=Occupation Status
+Name=HH_OCCUPATION_STATUS_VS
+Value=1;Permanent
+Value=2;Casual
+Value=3;Contractual
+Value=9
+Name=NOTAPPL,Special
+
+[Item]
+Label=Monthly Income
+Name=HH_MONTHLY_INCOME
+Start=220
+Len=6
+
+[ValueSet]
+Label=Monthly Income
+Name=HH_MONTHLY_INCOME_VS2
+Value='99    '
+Name=NOTAPPL,Special
+
+[Item]
+Label=Place of Birth Delivery
+Name=HH_PLACE_OF_BIRTH_DELIVERY
+Start=226
+Len=1
+
+[ValueSet]
+Label=Place of Birth Delivery
+Name=HH_PLACE_OF_BIRTH_DELIVERY_VS
+Value=1;Public Hospital
+Value=2;Private hospital
+Value=3;Lying_in clinic
+Value=4;Home
+Value=5;Others
+Value=9
+Name=NOTAPPL,Special
+
+[Item]
+Label=Other Place of Birth Delivery
+Name=HH_OTHER_PLACE_OF_BIRTH_DELIVERY
+Start=227
+Len=25
+DataType=Alpha
+
+[Item]
+Label=Birth Attendant
+Name=HH_BIRTH_ATTENDANT
+Start=252
+Len=1
+
+[ValueSet]
+Label=Birth Attendant
+Name=HH_BIRTH_ATTENDANT_VS
+Value=1;Doctor
+Value=2;Nurse
+Value=3;Midwife
+Value=4;Hilot
+Value=5;Others
+Value=9
+Name=NOTAPPL,Special
+
+[Item]
+Label=Other Birth Attendant
+Name=HH_OTHER_BIRTH_ATTENDANT
+Start=253
+Len=25
+DataType=Alpha
+
+[Item]
+Label=Last Immunization Received
+Name=HH_IMMUNIZATION
+Start=278
+Len=15
+DataType=Alpha
+
+[Item]
+Label=Number of Children
+Name=HH_NUMBER_OF_CHILDREN
+Start=293
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Number of Children
+Name=HH_NUMBER_OF_CHILDREN_VS2
+Value=99
+Name=NOTAPPL,Special
+
+[Item]
+Label=Living Children
+Name=HH_LIVING_CHILDREN
+Start=295
+Len=2
+
+[ValueSet]
+Label=Living Children
+Name=HH_LIVING_CHILDREN_VS
+Value=1:20
+Value=99
+Name=NOTAPPL,Special
+
+[Item]
+Label=Family Planning Method Used
+Name=HH_FAMILY_PLANNING_METHOD_USED
+Start=297
+Len=2
+
+[ValueSet]
+Label=Family Planning
+Name=FAMILY_PLANNING_METHOD
+Link=152601424
+Value=1;Female Sterilization/Ligation
+Value=2;Male Sterilization/Vasectomy
+Value=3;IUD
+Value=4;Injectables
+Value=5;Implants
+Value=6;Pills
+Value=7;Condom
+Value=8;Modern natural FP
+Value=9;Lactational Amenorhea Method (LAM)
+Value=10;None
+Value=99
+Name=NOTAPPL,Special
+
+[Item]
+Label=Source of FP Method
+Name=HH_SOURCE_OF_FP_METHOD
+Start=299
+Len=1
+
+[ValueSet]
+Label=Source of FP Method
+Name=HH_SOURCE_OF_FP_METHOD_VS
+Value=1;Government hospital
+Value=2;RHU/Health centers
+Value=3;Barangay health station
+Value=4;Private hospital
+Value=5;Pharmacy
+Value=6;Others
+Value=9
+Name=NOTAPPL,Special
+
+[Item]
+Label=Other Source of FP Method
+Name=HH_OTHER_SOURCE_OF_FP_METHOD
+Start=300
+Len=10
+DataType=Alpha
+
+[Item]
+Label=Intent to use FP
+Name=HH_INTENT_TO_USE_FP
+Start=310
+Len=1
+
+[ValueSet]
+Label=Intent to use FP
+Name=HH_INTENT_TO_USE_FP_VS
+Value=1;Yes
+Value=2;No
+Value=9
+Name=NOTAPPL,Special
+
+[Item]
+Label=FP Method Intent to use
+Name=HH_PF_METHOD_INTENT_TO_USE
+Start=311
+Len=2
+
+[ValueSet]
+Label=FP Method Intent to use
+Name=HH_PF_METHOD_INTENT_TO_USE_VS1
+Link=152601424
+
+[Item]
+Label=Reason of no intent to use FP
+Name=HH_REASON_OF_NO_INTENT_TO_USE_FP
+Start=313
+Len=10
+DataType=Alpha
+
+[Item]
+Label=Health Insurance
+Name=HH_HEALTH_INSURANCE
+Start=323
+Len=1
+
+[ValueSet]
+Label=Health Insurance
+Name=HH_HEALTH_INSURANCE_VS
+Value=1;Philhealth paying member
+Value=2;Philhealth dependent of paying member
+Value=3;Philhealth indigent member
+Value=4;Philhealth dependent of indigent member
+Value=5;GSIS
+Value=6;SSS
+Value=7;Private/HMO
+Value=8;None
+Value=9;Others
+
+[Item]
+Label=Other health insurance
+Name=HH_OTHER_HEALTH_INSURANCE
+Start=324
+Len=10
+DataType=Alpha
+
+[Item]
+Label=Health Facility Visited in past 12 months
+Name=HH_HEALTH_FACILITY_VISITED
+Start=334
+Len=1
+
+[ValueSet]
+Label=Health Facility Visited
+Name=HH_HEALTH_FACILITY_VISITED_VS
+Value=1;Government hospital
+Value=2;RHU/Health center
+Value=3;Barangay health station
+Value=4;Private hospital
+Value=5;Private clinics
+Value=6;Pharmacy
+Value=7;Hilot/herbalist
+Value=8;None
+Value=9;Others
+
+[Item]
+Label=Other health facility visited in past 12 months
+Name=HH_OTHER_HEALTH_FACILITY_VISITED
+Start=335
+Len=10
+DataType=Alpha
+
+[Item]
+Label=Reason for visit in health facility
+Name=HH_REASON_FOR_VISIT
+Start=345
+Len=1
+
+[ValueSet]
+Label=Reason for visit
+Name=HH_REASON_FOR_VISIT_VS
+Value=1;Sick/injured
+Value=2;Prenatal/postnatal
+Value=3;Gave births
+Value=4;Dental
+Value=5;Medical check up
+Value=6;Medical requirement
+Value=7;NHTS/CCT/4Ps requirement
+Value=8;Others, please specify
+
+[Item]
+Label=Other reason for visit in health facility
+Name=HH_OTHER_REASON_FOR_VISIT
+Start=346
+Len=10
+DataType=Alpha
+
+[Item]
+Label=Disability
+Name=HH_DISABILITY
+Start=356
+Len=1
+
+[ValueSet]
+Label=Disability
+Name=HH_DISABILITY_VS
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Type of Disability
+Name=HH_TYPE_OF_DISABILITY
+Start=357
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=Type of Disability
+Name=HH_TYPE_OF_DISABILITY_VS
+Value='1  ';Mental impairment
+Value='2  ';Physical impairment
+Value='3  ';Sensory impairment
+
+[Item]
+Label=Solo Parent
+Name=HH_SOLO_PARENT
+Start=360
+Len=1
+
+[ValueSet]
+Label=Solo Parent
+Name=HH_SOLO_PARENT_VS
+Value=1;Yes
+Value=2;No
+Value=9
+Name=NOTAPPL,Special
+
+[Item]
+Label=Registered Senior Citizen
+Name=HH_REGISTERED_SENIOR_CITIZEN
+Start=361
+Len=1
+
+[ValueSet]
+Label=Registered Senior Citizen
+Name=HH_REGISTERED_SENIOR_CITIZEN_VS1
+Value=1;Yes
+Value=2;No
+Value=9
+Name=NOTAPPL,Special
+
+[Item]
+Label=Registered Voter
+Name=HH_REGISTERED_VOTER
+Start=362
+Len=1
+
+[ValueSet]
+Label=Registered Voter
+Name=HH_REGISTERED_VOTER_VS1
+Value=1;Yes
+Value=2;No
+Value=9
+Name=NOTAPPL,Special
+
+[Item]
+Label=Place of precint
+Name=HH_PLACE_OF_PRECINT
+Start=363
+Len=15
+DataType=Alpha
+
+[Item]
+Label=Municipal Precint
+Name=HH_MUNICIPAL_PRECINT
+Start=363
+Len=2
+ItemType=SubItem
+
+[ValueSet]
+Label=Municipal Precint
+Name=HH_MUNICIPAL_PRECINT_VS1
+Link=123182168
+
+[Item]
+Label=Barangay Precint
+Name=HH_BARANGAY_PRECINT
+Start=369
+Len=3
+ItemType=SubItem
+
+[ValueSet]
+Label=Barangay Precint
+Name=HH_BARANGAY_PRECINT_VS1
+Link=123186128
+Value=999
+Name=NOTAPPL,Special
+
+[Item]
+Label=Municipal of previous residence 5 years ago
+Name=HH_MUNICIPAL_RESIDENCE_5Y_AGO
+Start=378
+Len=2
+
+[ValueSet]
+Label=Municipal of previous residence 5 years ago
+Name=HH_MUNICIPAL_RESIDENCE_5Y_AGP
+Link=123182168
+
+[Item]
+Label=Barangay Previous Residence 5 years ago
+Name=HH_BARANGAY_RESIDENCE_5Y_AGO
+Start=380
+Len=3
+
+[ValueSet]
+Label=Barangay Previous Residence 5 years ago
+Name=HH_BARANGAY_RESIDENCE_5Y_AGO_VS1
+Link=123186128
+
+[Item]
+Label=Municipal of previous residence 6 months ago
+Name=HH_MUNICIPAL_RESIDENCE_6MO_AGO
+Start=383
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Municipal of previous residence 6 months ago
+Name=HH_MUNICIPAL_RESIDENCE_6MO_AGP
+Link=123182168
+
+[Item]
+Label=Barangay Previous Residence 6 months ago
+Name=HH_BARANGAY_RESIDENCE_6MO_AGO
+Start=385
+Len=3
+ZeroFill=Yes
+
+[ValueSet]
+Label=Barangay Previous Residence 6 months ago
+Name=HH_BARANGAY_RESIDENCE_6MO_AGP
+Link=123186128
+
+[Item]
+Label=Number of month has been staying in the barangay
+Name=HH_MONTH_NUMBER_STAY
+Start=388
+Len=2
+
+[ValueSet]
+Label=Number of month has been staying in the barangay
+Name=HH_MONTH_NUMBER_STAY_VS
+Value=0:12
+Value=99
+Name=NOTAPPL,Special
+
+[Item]
+Label=Number of year been staying in the barangay
+Name=HH_YEAR_NUMBER_STAY
+Start=390
+Len=2
+
+[ValueSet]
+Label=Number of year been staying in the barangay
+Name=HH_YEAR_NUMBER_STAY_VS
+Value=1:98
+Value=99
+Name=NOTAPPL,Special
+
+[Item]
+Label=Type of resident
+Name=HH_TYPE_OF_RESIDENT
+Start=392
+Len=1
+
+[ValueSet]
+Label=Type of resident
+Name=HH_TYPE_OF_RESIDENT_VS
+Value=1;Native
+Value=2;Migrant
+Value=3;Transient
+
+[Item]
+Label=Month transferred in the current barangay
+Name=HH_MONTH_TRANSFERRED
+Start=393
+Len=2
+
+[ValueSet]
+Label=Month transferred in the current barangay
+Name=HH_MONTH_TRANSFERRED_VS1
+Link=117763512
+Value=1;January
+Value=2;February
+Value=3;March
+Value=4;April
+Value=5;May
+Value=6;June
+Value=7;July
+Value=8;August
+Value=9;September
+Value=10;October
+Value=11;November
+Value=12;December
+
+[Item]
+Label=Year transferred in the current barangay
+Name=HH_YEAR_TRANSFERRED
+Start=395
+Len=4
+
+[Item]
+Label=Reason for leaving
+Name=HH_REASON_FOR_LEAVING
+Start=399
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=Reason for leaving
+Name=HH_REASON_FOR_LEAVING_VS
+Value='1  ';Lack of employment
+Value='2  ';Perception of better income in other place
+Value='3  ';To study
+Value='4  ';Presence of relatives and friends in other place
+Value='5  ';Relocated
+Value='6  ';Due to disaster
+Value='7  ';Others, write the response
+
+[Item]
+Label=Other reason or leaving
+Name=HH_OTHER_REASON_OR_LEAVING
+Start=402
+Len=15
+DataType=Alpha
+
+[Item]
+Label=Month intends to return to previous residence
+Name=HH_MONTH_RETURN_PREVIOUS
+Start=417
+Len=2
+
+[ValueSet]
+Label=Month intends to return to previous residence
+Name=HH_MONTH_RETURN_PREVIOUS_VS1
+Link=117763512
+
+[Item]
+Label=Year intends to return to previous residence
+Name=HH_YEAR_RETURN_PREVIOUS
+Start=419
+Len=4
+
+[Item]
+Label=Reason for transferring in this barangay
+Name=HH_REASON_FOR_TRANSFERRING
+Start=423
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=Reason for transferring in this barangay
+Name=HH_REASON_FOR_TRANSFERRING_VS
+Value='1  ';Availability of jobs
+Value='2  ';Higher wager
+Value='3  ';Presence of schools or universities
+Value='4  ';Presence of relatives and friends in other place
+Value='5  ';Others, please specify
+
+[Item]
+Label=Other reason for transferring in this barangay
+Name=HH_OTHER_REASON_FOR_TRANSFERRING
+Start=426
+Len=15
+DataType=Alpha
+
+[Item]
+Label=Month intends to stay in the current barangay
+Name=HH_MONTH_INTEND_STAY
+Start=441
+Len=2
+
+[ValueSet]
+Label=Month intends to stay in the current barangay
+Name=HH_MONTH_INTEND_STAY_VS2
+Link=117763512
+
+[Item]
+Label=Year intends to stay in the current barangay
+Name=HH_YEAR_INTENDS_STAY
+Start=443
+Len=4
+
+[Item]
+Label=Skills Development Training
+Name=HH_SKILLS_DEVELOPMENT_TRAINING
+Start=447
+Len=25
+DataType=Alpha
+
+[Item]
+Label=Population Section:  Roster Confirmation
+Name=HH_MORE_ROWS
+Start=472
+Len=1
+
+[ValueSet]
+Label=Population Section:  Roster Confirmation
+Name=HH_MORE_ROWS_VS1
+Value=1;Yes, there are additional persons
+Value=2;No, list of persons is complete
+
+[Record]
+Label=Housing Record
+Name=HOUSING_RECORD
+RecordTypeValue='H'
+Required=No
+RecordLen=554
+
+[Item]
+Label=House Ownership
+Name=HH_OWNERSHIP_HOUSE
+Start=22
+Len=1
+
+[ValueSet]
+Label=House Ownership
+Name=HH_OWNERSHIP_HOUSE_VS1
+Value=1;Rent-free without consent of owner
+Value=2;Rent-free with consent of owner
+Value=3;Rented
+Value=4;Owned/being amortized
+
+[Item]
+Label=Lot Ownership
+Name=HH_OWNERSHIP_LOT
+Start=23
+Len=1
+
+[ValueSet]
+Label=Lot Ownership
+Name=HH_OWNERSHIP_LOT_VS1
+Value=1;Rent-free without consent of owner
+Value=2;Rent-free with consent of owner
+Value=3;Rented
+Value=4;Owned/being amortized
+
+[Item]
+Label=Fuel for lighting
+Name=HH_FUEL_LIGHTING
+Start=24
+Len=1
+
+[ValueSet]
+Label=Fuel for lighting
+Name=HH_FUEL_LIGHTING_VS1
+Value=0;None
+Value=1;Oil (vegetable, animal, others)
+Value=2;Liquified petroleum gas (LPG)
+Value=3;Kerosene (gaas)
+Value=4;Electricity
+Value=5;Others, please specify
+
+[Item]
+Label=Other fuel for lighting
+Name=HH_OTHER_FUEL_FOR_LIGHTING
+Start=25
+Len=10
+DataType=Alpha
+
+[Item]
+Label=Fuel for cooking
+Name=HH_FUEL_COOKING
+Start=35
+Len=1
+
+[ValueSet]
+Label=Fuel for cooking
+Name=HH_FUEL_COOKING_VS1
+Value=0;None
+Value=1;Wood
+Value=2;Charcoal
+Value=3;Liquified petroleum gas (LPG)
+Value=4;Kerosene (gaas)
+Value=5;Electricity
+Value=6;Others, please specify
+
+[Item]
+Label=Other fuel for cooking
+Name=HH_OTHER_FUEL_FOR_COOKING
+Start=36
+Len=10
+DataType=Alpha
+
+[Item]
+Label=Source of drinking water
+Name=HH_DRINKING_WATER
+Start=46
+Len=2
+
+[ValueSet]
+Label=Source of drinking water
+Name=HH_DRINKING_WATER_VS1
+Value=1;Lake, river, rain, others
+Value=2;Dug well
+Value=3;Unprotected spring
+Value=4;Protected spring
+Value=5;Peddler
+Value=6;Tubed/Piped shallow well
+Value=7;Shared, tubed/piped deep well
+Value=8;Own use, tubed/piped deep well
+Value=9;Shared, faucet community water system
+Value=10;Own, faucet community water system
+Value=11;Bottled water
+Value=12;Others, please specify
+
+[Item]
+Label=Other source of drinking water
+Name=HH_OTHER_SOURCE_DRINKING_WATER
+Start=48
+Len=10
+DataType=Alpha
+
+[Item]
+Label=Manner of kitchen waste disposal
+Name=HH_DISPOSAL_KITCHEN
+Start=58
+Len=1
+
+[ValueSet]
+Label=Manner of kitchen waste disposal
+Name=HH_DISPOSAL_KITCHEN_VS1
+Value=1;Feeding to animal
+Value=2;Burying
+Value=3;Composting
+Value=4;Burning
+Value=5;Dumping individual pit (not burned)
+Value=6;Picked-up by garbage truck
+
+[Item]
+Label=Garbage Segration
+Name=HH_PRACTICE_SEGREGATION
+Start=59
+Len=1
+
+[ValueSet]
+Label=Garbage Segration
+Name=HH_PRACTICE_SEGREGATION_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Toilet Facility
+Name=HH_TOILET_FACILITY
+Start=60
+Len=1
+
+[ValueSet]
+Label=Toilet Facility
+Name=HH_TOILET_FACILITY_VS1
+Value=0;None
+Value=1;Open pit
+Value=2;Close pit
+Value=3;Water-sealed, other depository, shared
+Value=4;Water-sealed, other depository, exclusive
+Value=5;Water-sealed, sewer septic tank, shared
+Value=6;Water-sealed, sewer septic tank, exclusive
+Value=7;Others, please specify
+
+[Item]
+Label=Other toiler facility
+Name=HH_OTHER_TOILER_FACILITY
+Start=61
+Len=10
+DataType=Alpha
+
+[Item]
+Label=Type of House
+Name=HH_TYPE_HOUSE
+Start=71
+Len=1
+
+[ValueSet]
+Label=Type of House
+Name=HH_TYPE_HOUSE_VS1
+Value=1;Single house
+Value=2;Duplex
+Value=3;Multi-unit residential (three units or more)
+Value=4;Commercial/industrial/agricultural (Office, factory and others)
+Value=5;Institutional living quarters (hotel, hospital)
+Value=6;Other housing units (boat, cave, others)
+
+[Item]
+Label=Construction type of outer walls
+Name=HH_OUTER_WALL
+Start=72
+Len=1
+
+[ValueSet]
+Label=Construction type of outer walls
+Name=HH_OUTER_WALL_VS1
+Value=0;No walls
+Value=1;Makeshift/salvaged/improvised materials
+Value=2;Glass
+Value=3;Asbestos
+Value=4;Bamboo/Sawali/Cogon/Nipa
+Value=5;Galvanized iron/aluminum
+Value=6;Half concrete/brick/stone and half wood
+Value=7;Wood
+Value=8;Concrete/brick/stone
+Value=9;Others, please specify
+
+[Item]
+Label=Other construction type of outer walls
+Name=HH_OTHER_OUTER_WALL
+Start=73
+Len=10
+DataType=Alpha
+
+[Item]
+Label=Number of Female member who died in the past 12 months
+Name=HH_NUMBER_OF_FEMALE_DEATH
+Start=83
+Len=1
+
+[ValueSet]
+Label=Number of Female member who died in the past 12 months
+Name=HH_NUMBER_OF_FEMALE_DEATH_VS
+Value=0:5
+
+[Item]
+Label=Female member who died in the past 12 months
+Name=HH_FEMALE_DEATH
+Start=84
+Len=27
+DataType=Alpha
+Occurrences=5
+
+[Item]
+Label=Age of female member who died in the past 12 month
+Name=HH_FEMALE_DEATH_AGE
+Start=84
+Len=2
+ItemType=SubItem
+
+[Item]
+Label=Cause of death of female member who died in the past 12 months
+Name=HH_FEMALE_DEATH_CAUSE
+Start=86
+Len=25
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Number of Child below 5 years old who died in the past 12 months
+Name=HH_NUMBER_OF_CHILD
+Start=219
+Len=1
+
+[ValueSet]
+Label=Number of Child below 5 years old who died in the past 12 months
+Name=HH_NUMBER_OF_CHILD_VS
+Value=0:5
+
+[Item]
+Label=Child below 5 years old who died in the past 12 months
+Name=HH_CHILD_DEATH_BELOW5
+Start=220
+Len=36
+DataType=Alpha
+Occurrences=5
+
+[Item]
+Label=Age of child below 5 years old who died in the past 12 months
+Name=HH_CHILD_DEATH_BELOW5_AGE
+Start=220
+Len=2
+ItemType=SubItem
+
+[Item]
+Label=Sex of child below 5 years old who died in the past 12 months
+Name=HH_CHILD_DEATH_BELOW5_SEX
+Start=230
+Len=1
+ItemType=SubItem
+
+[ValueSet]
+Label=Sex of child below 5 years old who died in the past 12 months
+Name=HH_CHILD_DEATH_BELOW5_SEX_VS2
+Link=117764920
+
+[Item]
+Label=Cause of death of child below 5 years old who died in the past 12 months
+Name=HH_CHILD_DEATH_BELOW5_CAUSE
+Start=231
+Len=25
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Common Diseases that causes death in barangay
+Name=HH_COMMON_DISEASES_CAUSE_DEATH
+Start=400
+Len=25
+DataType=Alpha
+Occurrences=3
+
+[Item]
+Label=Primary needs of barangay
+Name=HH_PRIMARY_NEEDS_BARANGAY
+Start=475
+Len=25
+DataType=Alpha
+Occurrences=3
+
+[Item]
+Label=Municipality intent to stay 5 years from now
+Name=HH_INTENT_TO_STAY_MUN
+Start=550
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Barangay intent to stay 5 years from now
+Name=HH_INTENT_TO_STAY_BGY
+Start=552
+Len=3
+ZeroFill=Yes
+
+[Record]
+Label=Metadata Record
+Name=METADATA_RECORD
+RecordTypeValue='X'
+RecordLen=184
+
+[Item]
+Label=Number of household member
+Name=HH_NUMBER_OF_HOUSEHOLD_MEMBER
+Start=22
+Len=2
+
+[Item]
+Label=Interview Date
+Name=HH_INTERVIEW_DATE
+Start=24
+Len=8
+DataType=Alpha
+
+[Item]
+Label=Interview Year
+Name=HH_INTERVIEW_YEAR
+Start=24
+Len=4
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Interview Month
+Name=HH_INTERVIEW_MONTH
+Start=28
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[ValueSet]
+Label=Interview Month
+Name=HH_INTERVIEW_MONTH_VS1
+Link=111088560
+
+[Item]
+Label=Interview Day
+Name=HH_INTERVIEW_DAY
+Start=30
+Len=2
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Interviewer Code
+Name=HH_INTERVIEWER_CODE
+Start=32
+Len=36
+DataType=Alpha
+
+[Item]
+Label=Supervisor Code
+Name=HH_SUPERVISOR_CODE
+Start=68
+Len=36
+DataType=Alpha
+
+[Item]
+Label=Start Interview Time
+Name=HH_START_INTERVIEW_TIME
+Start=104
+Len=10
+ZeroFill=Yes
+
+[Item]
+Label=End Interview Time
+Name=HH_END_INTERVIEW_TIME
+Start=114
+Len=10
+ZeroFill=Yes
+
+[Item]
+Label=Program Publish Date
+Name=HH_PROGRAM_PUBLISH_DATE
+Start=124
+Len=14
+ZeroFill=Yes
+
+[Item]
+Label=GPS Reading
+Name=HH_GPS_READING
+Start=138
+Len=1
+
+[ValueSet]
+Label=GPS Reading
+Name=HH_GPS_READING_VS1
+Value=1;Yes
+Value=3;No
+
+[ValueSet]
+Label=GPS Reading
+Name=HH_GPS_READING_VS2
+Value=1;Yes
+Value=2;No, but keep previously collected GPS Data
+Value=3;No, but delete previously collected GPS Data
+
+[ValueSet]
+Label=GPS Reading
+Name=HH_GPS_READING_VS3
+Value=3;No
+
+[ValueSet]
+Label=GPS Reading
+Name=HH_GPS_READING_VS4
+Value=2;No, but keep previously collected GPS data
+Value=3;No, but delete previouslt collected GPS data
+
+[Item]
+Label=GPS Latitude
+Name=HH_GPS_LATITUDE
+Start=139
+Len=10
+Decimal=6
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=GPS Longitude
+Name=HH_GPS_LONGITUDE
+Start=149
+Len=10
+Decimal=6
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=GPS Altitude
+Name=HH_GPS_ALTITUDE
+Start=159
+Len=7
+Decimal=1
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=GPS Accuracy
+Name=HH_GPS_ACCURACY
+Start=166
+Len=6
+Decimal=1
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=GPS Satellites
+Name=HH_GPS_SATELLITES
+Start=172
+Len=3
+ZeroFill=Yes
+
+[Item]
+Label=GPS Readtime
+Name=HH_GPS_READTIME
+Start=175
+Len=6
+ZeroFill=Yes
+
+[Item]
+Label=Interview Introduction
+Name=HH_INTRODUCTION
+Start=181
+Len=1
+
+[ValueSet]
+Label=Interview Introduction
+Name=HH_INTRODUCTION_VS1
+Value=1;Begin Interview
+
+[ValueSet]
+Label=Interview Introduction
+Name=HH_INTRODUCTION_VS2
+Value=2;Continue interview where previouslt left off
+Value=1;Continue interview from first question
+
+[ValueSet]
+Label=Interview Introduction
+Name=HH_INTRODUCTION_VS3
+Value=1;Modify questionnaire
+
+[Item]
+Label=Population Section
+Name=HH_POPULATION_SECTION
+Start=182
+Len=1
+
+[ValueSet]
+Label=Population Section
+Name=HH_POPULATION_SECTION_VS1
+Value=1;Continue
+
+[Item]
+Label=Dwelling Characteristics Section
+Name=HH_DWELLING_SECTION
+Start=183
+Len=1
+
+[Item]
+Label=Interview Conclusion
+Name=HH_INTERVIEW_CONCLUSION
+Start=184
+Len=1
+
+[ValueSet]
+Label=Interview Conclusion
+Name=HH_INTERVIEW_CONCLUSION_VS1
+Value=1;Conclude interview
+Value=2;Review population section
+Value=3;Review dwelling characteristics section

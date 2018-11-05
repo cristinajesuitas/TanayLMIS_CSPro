@@ -1,0 +1,18 @@
+﻿[Run Information]
+Version=CSPro 7.1
+AppType=Entry
+
+[DataEntryInit]
+Interactive=Ask
+
+[Files]
+Application=.\Tanay_LMIS_Census.ent
+InputData=..\Data\Household.csdb|CSPRODB
+Paradata=.\Tanay_LMIS_Census.cslog
+
+[ExternalFiles]
+BARANGAY_DICT=..\Data\Geocode.csdb|CSPRODB
+GEOCODE_DICT=..\Data\GEOCODE.csdb|CSPRODB
+
+[Parameters]
+
